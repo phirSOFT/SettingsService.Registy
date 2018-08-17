@@ -5,4 +5,9 @@
     <RootNamespace>phirSOFT.SettingsService.Registry</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.Registry" Version="4.5.0" />
+    <PackageReference Include="phirSOFT.SettingsService" Version="0.1.36" />
+  </ItemGroup>
+
 </Project>
