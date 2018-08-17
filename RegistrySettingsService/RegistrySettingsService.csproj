@@ -17,6 +17,7 @@
     <PackageReleaseNotes>*Currently untested*
 
 This is the first version of this package. All changes are immediatly written to the registry.</PackageReleaseNotes>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
