@@ -3,6 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <RootNamespace>phirSOFT.SettingsService.Registry</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>phirSOFT.SettingsService.Registry</PackageId>
+    <Authors>phirSOFT</Authors>
+    <Company>phirSOFT</Company>
+    <Product>phirSOFT Settings Service</Product>
+    <Description>Provides a settings service that stores its settings in the windows registry. This package is not recommended for multi plattform applications, since the registry does not exists on all plattforms.</Description>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/phirSOFT/SettingsService.Registy/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/phirSOFT/SettingsService.Registy/blob/master/LICENSE</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/phirSOFT/SettingsService.Registy/blob/master/LICENSE</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Settings, settings service, registry</PackageTags>
+    <PackageReleaseNotes>*Currently untested*
+
+This is the first version of this package. All changes are immediatly written to the registry.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
