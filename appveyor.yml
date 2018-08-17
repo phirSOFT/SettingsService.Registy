@@ -22,10 +22,6 @@ dotnet_csproj:
   file_version: $(GitVersion_AssemblySemVer)
   informational_version: $(GitVersion_FullSemVer)
 
-before_build:
-  - nuget restore
-  - ps: gitversion /l console /output buildserver /updateAssemblyInfo
-
 on_failure:
   - ps: 7z a "WorkingTree.zip"
   - ps: Push-AppveyorArtifact WorkingTree.zip
