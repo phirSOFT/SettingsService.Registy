@@ -22,7 +22,7 @@ This is the first version of this package. All changes are immediatly written to
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Win32.Registry" Version="4.5.0" />
-    <PackageReference Include="phirSOFT.SettingsService" Version="0.1.36" />
+    <PackageReference Include="phirSOFT.SettingsService" Version="0.2.3" />
   </ItemGroup>
 
 </Project>
